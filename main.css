@@ -1,0 +1,187 @@
+/* body{
+    background-color: red;
+} */
+
+.page-header{
+    background-color: #FFB703;
+    color: #023047;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    height: 100px;
+}
+
+.title{
+    font-size: 60pt;
+}
+
+.profile-contents{
+    color: white;
+}
+
+.h-nav{
+    background-color: #8ecae6;
+    color: #023047;
+    margin-top: 0px;
+}
+
+.h-nav > ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    top: 0px;
+    margin-left: 10px;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+li{
+    display: inline-block;
+}
+
+li > a{
+    display: block;
+    color: #023047;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+    font-size: 24pt;
+}
+
+li > a:hover{
+    color: white;
+    background-color: #023047;
+}
+
+.active{
+    background-color: #219ebc;
+}
+
+.page-footer{
+    text-align: center;
+    color: white;
+    background-color: crimson;
+    height: 50px;
+    padding: 10px;
+    vertical-align: middle;
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+}
+
+.page-content{
+    height: 800px;
+}
+
+.userlogin_service-tbl{
+    width: 300px;
+    height: 200px;
+    padding: 5px;
+    border: 1 black solid;
+}
+
+.userlogin_service-tr{
+    height: 44px;
+}
+
+.userlogin_service-inputtext{
+    height: 30px;
+    background-color: darkgray;
+    border: red;
+    color: saddlebrown;
+}
+
+.mb5{
+    margin-bottom: 5px;
+}
+
+.p5{
+    padding: 5px;
+}
+
+/*signup portion */
+
+/* body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+} */
+
+* {
+  box-sizing: border-box;
+}
+
+/* Add padding to containers */
+.container {
+    padding: 16px;
+    background-color: white;
+  }
+  
+  /* Full-width input fields */
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Overwrite default styles of hr */
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  
+  /* Set a style for the submit button */
+  .registerbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .registerbtn:hover {
+    opacity: 1;
+  }
+  
+  /* Add a blue text color to links */
+  a {
+    color: dodgerblue;
+  }
+  
+  /* Set a grey background color and center the text of the "sign in" section */
+  .signin {
+    background-color: #f1f1f1;
+    text-align: center;
+  }
+
+/* a:link{
+    text-decoration: none;
+    color: bisque;
+}
+
+a:visited{
+    text-decoration: none;
+    color: rgb(98, 75, 46);
+}
+
+a:active{
+    text-decoration: none;
+    color: rgb(46, 98, 70);
+}
+
+a:hover{
+    text-decoration: none;
+    background-color: white;
+} */
